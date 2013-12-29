@@ -1,0 +1,4 @@
+cd C:\software\projects\source\springPro
+
+mvn clean tomcat7:deploy
+mvn clean tomcat7:redeploy
