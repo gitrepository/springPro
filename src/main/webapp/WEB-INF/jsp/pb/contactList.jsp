@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,9 +8,9 @@
 </head>
 <body>
 	<div>
-		Welcome to Spring !!!
+		Phone Book - Contact List
 		<br><br>
-		<a href="<spring:url value="/pb" />">Phone Book Application</a>
+		Currently the list is empty
 	</div>
 </body>
 </html>

@@ -12,8 +12,18 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
+	<!--Activates various annotations to be detected in bean classes -->
+	<context:annotation-config />
 
-	<!-- Forwards requests to the "/" resource to the "welcome" view -->
+  	<!--The controllers are auto detected POJOs labeled with the @Controller annotation.-->
+	<context:component-scan base-package="com"/>
+
+	<!-- Configures the annotation-driven Spring MVC Controller 
+		 programming model. Note that, with Spring 3.0, this tag works in 
+		 Servlet MVC only! -->
+	<mvc:annotation-driven />
+	
+	<!-- Defines a simple Controller that selects a view to render the response -->
 	<mvc:view-controller path="/" view-name="welcome"/>
 
 	<!--
