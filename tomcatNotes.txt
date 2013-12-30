@@ -7,6 +7,8 @@ First, add an user with administrator access right for Tomcat.
 To add Tomcat user, edit this file – “%TOMCAT_PATH%/conf/tomcat-users.xml“.
 
 File : tomcat-users.xml
+To avoid the below configuration from getting over written in Tomcat's --> conf --> tomcat-users.xml by eclipse,
+have it copied in eclipse's Servers --> Tomcat 7 --> tomcat-users.xml as well. 
 
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
