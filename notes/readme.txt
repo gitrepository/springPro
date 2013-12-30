@@ -1,4 +1,7 @@
 ###-##
+RTB04:Logging - SLF4J (log4j implementation)
+
+###-##
 RTB03:@Controller flow + spring tag
 
 ###-##

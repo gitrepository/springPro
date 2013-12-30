@@ -2,6 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/springPro"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/slf4j-simple-1.7.5.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-aop-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-beans-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-context-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-core-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-expression-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-web-3.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="target/springPro/WEB-INF/lib/spring-webmvc-3.2.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

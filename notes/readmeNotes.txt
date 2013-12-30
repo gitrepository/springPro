@@ -1,3 +1,12 @@
+###-###
+RTB04:
+Logging - SLF4J (log4j)
+Implemented Simple Logging Facade 4 Java.
+SLF4J actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Configuring log4j by adding it's log4j.properties file in class path 
+-(place it in main/resources folder).
+
+
 ###-##
 RTB03:
 @Controller flow implementation PhoneBookController
